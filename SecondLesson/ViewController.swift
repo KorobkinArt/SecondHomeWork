@@ -60,6 +60,8 @@ class ViewController: UIViewController {
     
     @objc private func tappedStartButton(sender: UIButton) {
         let vc = SecondViewController()
+        
+        //vc.text.text = ""
         navigationController?.pushViewController(vc, animated: true)
     }
     
